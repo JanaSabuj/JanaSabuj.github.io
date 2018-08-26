@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     dotColor: '#fbc531',
     lineColor: '#dcdde1',
     density: '8000',
-    parallax: false,
+    parallax: true,
     lineWidth: 0.2,
     directionX: 'right',
     directionY: 'up',
