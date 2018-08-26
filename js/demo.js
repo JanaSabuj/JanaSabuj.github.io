@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('particles'), {
     dotColor: '#fbc531',
     lineColor: '#dcdde1',
-    density: '10000',
+    density: '8000',
     parallax: false,
     lineWidth: 0.2,
     directionX: 'right',
@@ -19,6 +19,14 @@ document.addEventListener('DOMContentLoaded', function () {
   var intro = document.getElementById('intro');
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
 }, false);
+
+$('#typeit').typeIt({
+     strings: ['a Web Developer','an Android Developer','an Entrepreneur','a Freelancer'],
+     speed: 100,
+    breakLines: false,
+     autoStart: true,
+    loop:true
+});
 
 
 /*
