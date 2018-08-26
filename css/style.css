@@ -222,6 +222,18 @@ p {
   font-weight: bolder;
   margin: 10px;
 }
+
+#fullsite {
+  color: #fff;
+  font-weight: lighter;
+
+
+}
+
+#here {
+  color:#fbc531;
+  /*text-decoration: underline;*/
+}
  /*fehjkgewkjfgewkfg*/
 
  /*body{

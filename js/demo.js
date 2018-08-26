@@ -21,36 +21,15 @@ document.addEventListener('DOMContentLoaded', function () {
 }, false);
 
 
-
-// var instance = new TypeIt('#typeit', {
-//     strings: ['This is my string!'],
-//     //-- Other options...
-// });
-
-// import TypeIt from 'typeit';
-
-
-  var typed2 = new Typed('.typeit', {
-    strings: ['Some <i>strings</i> with', 'Some <strong>HTML</strong>', 'Chars &times; &copy;'],
-    typeSpeed: 0,
-    backSpeed: 0,
-    fadeOut: true,
-    loop: true
-  });
-
  
-
-
-
-/*
-// jQuery plugin example:
-$(document).ready(function() {
-  $('#particles').particleground({
-    dotColor: '#5cbdaa',
-    lineColor: '#5cbdaa'
-  });
-  $('.intro').css({
-    'margin-top': -($('.intro').height() / 2)
-  });
-});
-*/
+// // jQuery plugin example:
+// $(document).ready(function() {
+//   $('#particles').particleground({
+//     dotColor: '#5cbdaa',
+//     lineColor: '#5cbdaa'
+//   });
+//   $('.intro').css({
+//     'margin-top': -($('.intro').height() / 2)
+//   });
+// });
+// */
