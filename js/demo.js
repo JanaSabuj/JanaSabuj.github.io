@@ -20,13 +20,17 @@ document.addEventListener('DOMContentLoaded', function () {
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
 }, false);
 
-$('#typeit').typeIt({
-     strings: ['a Web Developer','an Android Developer','an Entrepreneur','a Freelancer'],
-     speed: 100,
-    breakLines: false,
-     autoStart: true,
-    loop:true
-});
+
+
+// var instance = new TypeIt('#typeit', {
+//     strings: ['This is my string!'],
+//     //-- Other options...
+// });
+
+// import TypeIt from 'typeit';
+
+ 
+
 
 
 /*
