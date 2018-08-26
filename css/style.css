@@ -52,6 +52,7 @@ table {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+
 }
 
 html, body {
@@ -270,6 +271,7 @@ a.icon:before{
   color: #fff;
   font-size: 20px;
   zoom: 1.5;
+  -moz-box-sizing: border-box;
 }
 a.facebook:before{
   content: '\f39e';
