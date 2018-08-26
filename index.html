@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
 
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/typeit@VERSION_NUMBER/dist/typeit.min.js" /> -->
    <!-- <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js" type=""></script> -->
   <!-- <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
@@ -28,10 +29,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.10.6/typeit.js"></script>
+
 
 </head>
 
 <body id="mybody">
+
+  <script type="text/javascript" src="typed.js"></script>
 
 <div id="particles">
   <div id="intro">
@@ -43,8 +48,43 @@
 
       </h1>
 
-      <h3 class="container" id="iam">I am <span id="typeit"> </span></h3>
+      <p class="type-it" id="iam">
+       Here is a string. <br>
+        And here is another! </p>
+          <!-- <script type="text/javascript">
+             var typed3 = new Typed('#iam', {
+    strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    smartBackspace: true, // this is a default
+    loop: true
+  });
+          </script>
 
+              
+ -->
+      <script type="text/javascript">
+        var instance = new TypeIt('.type-it', {
+                    strings: ['a Web Developer','an Android Developer','an Entrepreneur','a Freelancer'],
+                    speed: 70,
+                    breakLines: false,
+                    autoStart: false,
+                    loop:true,
+                     cursorSpeed: 500,
+
+
+
+});
+      </script>
+
+      <!-- $('h2.heading').typeIt({
+     strings: ['a Web Developer','an Android Developer','an Entrepreneur','a Freelancer'],
+     speed: 100,
+    breakLines: false,
+     autoStart: true,
+    loop:true
+});
+ -->
         
     
 
@@ -65,7 +105,7 @@
 
 
 
-    <div class="animated  flash delay-5s">
+    <div class="animated flash delay-5s">
   <a href="https://www.facebook.com/lionel.newton.92" class="icon facebook" id="cp" target="_blank"> <span>Facebook</span></a>
   <a href="https://twitter.com/SabujJanaCodes" class="icon twitter" id="cp" target="_blank"> <span>Twitter</span></a>
   <a href="https://github.com/JanaSabuj" class="icon github" id="cp" target="_blank"> </i><span>GitHub</span></a>
