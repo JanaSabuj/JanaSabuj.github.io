@@ -281,6 +281,10 @@ a.facebook:before{
 a.twitter:before{
   content: '\f099';
 }
+
+a.instagram:before{
+  content: '\f16d';
+}
 a.github:before{
   content: '\f113';
 }
@@ -357,6 +361,18 @@ a.twitter:hover{
 }
 a.twitter span{
   color: #19b5fe;
+}
+
+a.instagram:hover{
+  /*background-color: #19b5fe;*/
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: #fff;
+}
+a.instagram span{
+  color: #d6249f;
+  /*background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
 }
 a.github:hover{
   background-color: #000;
