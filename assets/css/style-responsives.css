@@ -185,7 +185,23 @@
 		margin-top: 30px;
 		float: left;
 	}
+	/*------revamp*/
+	#hire-projects {
+		padding: 65px 0 70px;
+	}
 
+	#hire-projects .btn {
+		margin-top: 30px;
+		float: left;
+	}#hire-education {
+		padding: 65px 0 70px;
+	}
+
+	#hire-education .btn {
+		margin-top: 30px;
+		float: left;
+	}
+	/*------end of revamp*/
 	.btn-lg {
 		padding: 18px 48px;
 		font-size: 18px;
