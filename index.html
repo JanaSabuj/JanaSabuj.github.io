@@ -92,7 +92,7 @@
 	<!-- // NAVIGATION END -->
 
 	<!--   // HOME BEGIN ----------------------------------------------------------------------------------------------------------- --> 
-	<div id="home" class="home-bg" style="background-image: url('assets/img/bg.jpg')" data-stellar-background-ratio="0.6">
+	<div id="particles-js" class="home-bg" style="background-image: url('assets/img/bg.jpg')" data-stellar-background-ratio="0.6">
 		<div class="overlay">
 			<div class="container">
 				<div class="row">
@@ -117,6 +117,19 @@
 			</div>
 		</div>
 	</div>
+
+
+<!-- particles-js style -->
+<style type="text/css" media="screen">
+			#particles-js{
+    /*background-image: url('image1.jpg');*/
+    height: 100vh;
+}
+		</style>
+
+
+
+
 	<!-- // HOME END -->
 
 	<!-- // ABOUT BEGIN -->
@@ -296,7 +309,7 @@
 						</a>
 						<div class="blog-desc">
 							<h4>
-								<a  >My First Encounter With Git and GitHub</a>
+								<a >My First Encounter With Git and GitHub</a>
 							</h4>
 							<p>This is the experience of my first git-push and git-commit.This super-useful technology can be used to keep track of all your codes all the time. </p>
 							<a href="https://medium.com/sabuj-jana/my-first-encounter-with-git-and-github-f8ff035e1092" target="_blank" class="btn btn-dark " id="readmore">Medium</a>
@@ -311,7 +324,6 @@
 						</a>
 						<div class="blog-desc">
 							<h4>
-								<!-- <a href="single.html"> Elon Musk- The Iron Man</a> -->
 								<a  > Elon Musk- The Iron Man</a>
 							</h4>
 							<p>I analysed why Elon Musk- the genius became so successful and now manages to run 7 companies with one single brain.</p>
@@ -699,6 +711,22 @@
 <h5>Want my number :) ? Friend me on FB or Connect with me on LinkedIn! </h5>
 
 
+<!-- particles js library inclusion -->
+
+ <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
+
+    <script>
+        particlesJS.load('particles-js', 'particles.json',
+        function(){
+            console.log('particles.json loaded...')
+        })
+    </script>
+
+
+<!-- end of particls js thanks vincent gerraeu -->
+
 
 	<!-- js plugin -->
 	<script src="assets/js/jquery.js"></script>
@@ -719,7 +747,6 @@
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
 </body>
-
 
  
 </html>
