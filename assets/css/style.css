@@ -119,9 +119,10 @@ body {
 }
 
 .btn-dark {
-	background: #131313;
+	background: #2d3436;
 	color: #fff;
 	border: none;
+	/*border-radius: 50%;*/
 }
 
 .btn-dark:hover,
@@ -134,7 +135,7 @@ body {
 
 #gotoblog 
  {
-	background: #4cd137 !important;
+	background: #2ecc71 !important;
 	visibility: visible;
 	color: #2f3640;
 	border-radius: 0;
@@ -153,7 +154,7 @@ body {
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
-	border-radius: 2px;
+	border-radius: 3%;
 }
 
 .btn.with-arrow:hover {
@@ -907,7 +908,7 @@ body {
 
 #hire {
 	padding: 95px 0 90px;
-	background: #4cd137;
+	background: #2ecc71;
 	color: #2d3436;
 }
 
@@ -1095,14 +1096,14 @@ body {
 	background: #ffd32a !important;
 	visibility: visible;
 	color: #2f3640;
-	border-radius: 0;
+	border-radius: 5%;
 	box-shadow: 1px 1px #d2dae2;
 	font-weight: bolder;
 	/*border: 1px solid black;*/
 
 }#readmore:hover 
  {
-	background: #141414 !important;
+	background: #2c3e50 !important;
 	visibility: visible;
 	color: #d2dae2;
 
