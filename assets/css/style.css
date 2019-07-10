@@ -1,8 +1,4 @@
-/*
-* Dew Templates (Personal Portofolio)
-* Created by : vavelo
-* Version : 1.1
-*/
+
 
 /* INDEX OF CONTENTS CSS
 =================================================
@@ -131,7 +127,7 @@ body {
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-	background: #4cd137 !important;
+	background: #27ae60 !important;
 	visibility: visible;
 	color: #fff;
 }
