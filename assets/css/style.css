@@ -982,7 +982,7 @@ body {
 
 #hire-education {
 	padding: 95px 0 90px;
-	background: linear-gradient(45deg, #4885ed, #4885ed);
+	background: #A3CB38;
 	color: #2d3436;
 }
 
@@ -1009,7 +1009,7 @@ body {
 
 #gotolinkedin 
  {
-	background: linear-gradient(45deg, #4885ed, #4885ed) !important;
+	background: #A3CB38 !important;
 	visibility: visible;
 	color: #2f3640;
 	border-radius: 0;
