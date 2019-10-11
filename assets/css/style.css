@@ -636,6 +636,45 @@ body {
 	font-size: 1.3em;
 }
 
+/*/--------------------*INDIVIDUAL ICON DECORATION*-------------------------/*/
+.social-icons li a i.fa-facebook {
+	/*font-size: 1.3em;*/
+	color: #3b5998;
+}
+.social-icons li a i.fa-twitter {
+	/*font-size: 1.3em;*/
+	color: #55acee;
+}
+.social-icons li a i.fa-instagram {
+	/*font-size: 1.3em;*/
+	color: #3f729b;
+}
+.social-icons li a i.fa-github {
+	/*font-size: 1.3em;*/
+	color: #333;
+}
+.social-icons li a i.fa-linkedin {
+	/*font-size: 1.3em;*/
+	color: #0077b5;
+}
+.social-icons li a i.fa-medium {
+	/*font-size: 1.3em;*/
+	color: #00ab6c;
+}
+.social-icons li a i.fa-envelope {
+	/*font-size: 1.3em;*/
+	color: #be0027;
+}
+.social-icons li a i.fa-quora {
+	/*font-size: 1.3em;*/
+	color: #a82400;
+}
+.social-icons li a i.fa-youtube {
+	/*font-size: 1.3em;*/
+	color: #ff0000;
+}
+
+/*----------------------------------------*/
 .facts {
 	float: right;
 	margin-top: 30px;
