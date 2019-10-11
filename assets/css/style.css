@@ -50,7 +50,7 @@ a {
 }
 
 h2 {
-	font-size: 2.7em;
+	font-size: 2.9em;
 	margin-bottom: 20px;
 	color: #131313;
 }
@@ -82,7 +82,7 @@ body {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 2px;
 	margin-right: 4px;
 	margin-bottom: 4px;
 	-webkit-transition: 0.5s;
@@ -104,18 +104,20 @@ body {
 }
 
 .btn-light {
-	background: #48b14d;
-	color: #fff;
-	border: none;
+	background: #fff;
+	color: black;
+	border: 0.5px solid grey;
+	/*border-radius: 50%;*/
 }
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
-	background: #616161 !important;
+	background: #27ae60 !important;
 	color: #fff;
 	visibility: visible;
 	opacity: 1;
+	border: 0.5px solid #27ae60;
 }
 
 .btn-dark {
@@ -528,8 +530,8 @@ body {
 }
 
 .profile-pic img {
-	width: 250px;
-	height: 250px;
+	width: 230px;
+	height: 230px;
 	border-radius: 50%;
 	border: 3px solid #fff;
 	margin: 0 auto;
