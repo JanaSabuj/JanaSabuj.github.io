@@ -530,8 +530,8 @@ body {
 }
 
 .profile-pic img {
-	width: 200px;
-	height: 200px;
+	width: 190px;
+	height: 190px;
 	border-radius: 50%;
 	border: 3px solid #fff;
 	margin: 0 auto;
@@ -1050,29 +1050,7 @@ body {
 	background: #e67e22;
 }
 
-/*11. HIRE-MOOCS*/
-
-#hire-moocs {
-	padding: 95px 0 90px;
-	background: #4cd137;
-	color: #2d3436;
-}
-
-#hire-moocs p {
-	width: 30em;
-	max-width: 100%;
-	font-size: 20px;
-}
-
-
-
-#hire-moocs .btn {
-	margin-top: 60px;
-	float: right;
-	border-width: 2px;
-	background: #f53b57;
-}
-
+ 
  .blog:hover {
     background:  !important;
     visibility: visible;
@@ -1094,20 +1072,7 @@ body {
 	color: #d2dae2;
 
 }
-#gotomoocs 
- {
-	background: #4cd137!important;
-	visibility: visible;
-	color: #2f3640;
-	border-radius: 0;
-	border: 1px solid black;
-
-}#gotomoocs:hover 
- {
-	background: #141414 !important;
-	visibility: visible;
-	color: #d2dae2;
-}
+	
 /* 11. TESTIMONIAL
 =================================================*/
 
