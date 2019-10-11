@@ -1107,7 +1107,6 @@ body {
 	background: #141414 !important;
 	visibility: visible;
 	color: #d2dae2;
-
 }
 /* 11. TESTIMONIAL
 =================================================*/
@@ -1174,6 +1173,13 @@ body {
 
 #blog {
 	padding: 90px 0 95px;
+	background: #f7f1e3;
+	font-family: Hind;
+}
+
+#blog-moocs {
+	/*padding: ;*/
+	float: left;
 	background: #f7f1e3;
 	font-family: Hind;
 }
