@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://janasabuj.github.io/sitemap.xml
+Host: https://janasabuj.github.io
