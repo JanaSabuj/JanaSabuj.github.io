@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/javascript/</link>
+    <description>Recent content in javascript on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Sat, 18 Apr 2020 11:14:45 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building CPTracker</title>
+      <link>https://janasabuj.github.io/posts/cptracker/</link>
+      <pubDate>Sat, 18 Apr 2020 11:14:45 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/cptracker/</guid>
+      <description>I developed a full stack app that will track and present the Past, Live and Future contests on the most popular sport programming sites.
+Codeforces Codechef Atcoder TopCoder HackerEarth HackerRank Leetcode Facebook Google CSAcademy
+The 3 types of contests are split across 3 different routes. Each of them is colour coded for better user understanding. Each contest has a link with which you can directly visit the specific programming site</description>
+    </item>
+    
+  </channel>
+</rss>

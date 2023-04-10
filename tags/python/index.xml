@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/python/</link>
+    <description>Recent content in python on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Sun, 29 Sep 2019 11:09:34 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VirtualCF — A Codeforces parser for Virtual Contests and Upsolving Contests</title>
+      <link>https://janasabuj.github.io/posts/virtualcf/</link>
+      <pubDate>Sun, 29 Sep 2019 11:09:34 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/virtualcf/</guid>
+      <description>I created a program called VirtualCF — A Codeforces parser for a specific contest identified by Id. It can be used for uninterrupted and smooth participation in a virtual contest, upsolving a practice contest or even a live contest.
+Read the entire blog here on Medium.
+The relevant code can be found here on Github.
+I created a Youtube Video for the code walkthrough here.</description>
+    </item>
+    
+    <item>
+      <title>ParseMyCF — a codeforces contest scraper</title>
+      <link>https://janasabuj.github.io/posts/parsemycf/</link>
+      <pubDate>Mon, 16 Sep 2019 22:59:26 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/parsemycf/</guid>
+      <description>I wrote an useful python script- ParseCF
+It will parse all the Codeforces contests that a particular user has participated in till date, make separate folders for every contest and every folder would contain all the user’s submissions for that particular contest , ordered by the problem names.
+Read the entire blog here on Medium. The relevant code can be found here on Github.
+I created a Youtube Video for the code walkthrough here.</description>
+    </item>
+    
+  </channel>
+</rss>

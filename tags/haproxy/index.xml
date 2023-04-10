@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>haproxy on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/haproxy/</link>
+    <description>Recent content in haproxy on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Thu, 23 Feb 2023 11:24:56 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/haproxy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hands on Haproxy LoadBalancing [with Go and Docker Compose]— Part 1</title>
+      <link>https://janasabuj.github.io/posts/haproxy1/</link>
+      <pubDate>Thu, 23 Feb 2023 11:24:56 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/haproxy1/</guid>
+      <description>Since I joined Flipkart, I have been been playing around with a lot of linux, networking, k8s, elb, go etc. Although hugely overwhelming at first sight, the learning is proving to be fun and interesting.
+Thought of starting a blog to assimilate some ideas in a fun and interesting way. In this blogpost, I have talked about hands on loadbalancing with haproxy, coupled with go and docker compose.
+In the modern world of distributed systems, it would be a sin to expose your applications without critical load balancing.</description>
+    </item>
+    
+  </channel>
+</rss>

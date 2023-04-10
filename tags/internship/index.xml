@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>internship on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/internship/</link>
+    <description>Recent content in internship on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Tue, 25 Jan 2022 11:22:20 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/internship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon 6 Month Internship</title>
+      <link>https://janasabuj.github.io/posts/amz6m/</link>
+      <pubDate>Tue, 25 Jan 2022 11:22:20 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/amz6m/</guid>
+      <description>I have received a 6-month SDE Internship offer from Amazon, the FAANG tech goliath, starting from Jan 2022.
+It was a surreal experience and I blogged about it here on Medium.</description>
+    </item>
+    
+  </channel>
+</rss>

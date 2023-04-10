@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/golang/</link>
+    <description>Recent content in golang on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Sat, 01 Apr 2023 11:42:33 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HELM-ing our Kubernetes deployed Golang music api</title>
+      <link>https://janasabuj.github.io/posts/musicapik8s-helm/</link>
+      <pubDate>Sat, 01 Apr 2023 11:42:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/musicapik8s-helm/</guid>
+      <description>In the previous blog, we built a golang music api and deployed it on top of K8s. However, the manifest files for our app (api and mysql components) were huge in number. This will make our app distribution infeasible since end users will need to manually apply all the manifest yamls in their k8s cluster.
+In comes the saviour - Helm charts. Apt is to Debian as Helm is to Kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>Building a Golang Music API and Deploying it on K8s</title>
+      <link>https://janasabuj.github.io/posts/musicapik8s/</link>
+      <pubDate>Tue, 14 Mar 2023 11:37:16 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/musicapik8s/</guid>
+      <description>We love building backend applications. But have we ever thought of building it cloud-natively? Did we ever keep in mind the deployment process and the underlying infra that would eventually be running our app ?
+In this blog, we build a golang backend music rest api and deploy it on Kubernetes. We use a lot of k8s constructs like Pods, Deployments, Services, ConfigMaps, Secrets, PersistentVolumeClaims, PersistentVolumes, port-forwarding etc - all in one - for deploying our backend app.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Club Ep 01: Decrypting a K8s Cluster Hands On</title>
+      <link>https://janasabuj.github.io/posts/k8sclub1/</link>
+      <pubDate>Fri, 03 Mar 2023 11:30:47 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/k8sclub1/</guid>
+      <description>Starting a blog series named Kubernetes Club (Inspired by the movie Fight Club).
+Here I will be talking about all things k8s, Istio and their related cloud-native technologies. The episodes will be hands-on and full of diagrams so that people can follow alongside and get a feel of k8s. Also, I included memes - figured it would be a win-win.
+Since joining Flipkart, I have been exposed to the wonderful of Kubernetes and Istio.</description>
+    </item>
+    
+    <item>
+      <title>Hands on Haproxy LoadBalancing [with Go and Docker Compose]— Part 1</title>
+      <link>https://janasabuj.github.io/posts/haproxy1/</link>
+      <pubDate>Thu, 23 Feb 2023 11:24:56 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/haproxy1/</guid>
+      <description>Since I joined Flipkart, I have been been playing around with a lot of linux, networking, k8s, elb, go etc. Although hugely overwhelming at first sight, the learning is proving to be fun and interesting.
+Thought of starting a blog to assimilate some ideas in a fun and interesting way. In this blogpost, I have talked about hands on loadbalancing with haproxy, coupled with go and docker compose.
+In the modern world of distributed systems, it would be a sin to expose your applications without critical load balancing.</description>
+    </item>
+    
+  </channel>
+</rss>
