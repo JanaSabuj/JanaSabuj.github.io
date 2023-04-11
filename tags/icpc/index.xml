@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>icpc on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/icpc/</link>
+    <description>Recent content in icpc on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Fri, 07 Jan 2022 11:18:34 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/icpc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICPC Swag — Team Bruteforce</title>
+      <link>https://janasabuj.github.io/posts/icpc/</link>
+      <pubDate>Fri, 07 Jan 2022 11:18:34 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/icpc/</guid>
+      <description>Our ICPC team Bruteforce — Rishik Varma, Jatin Singh and me were able to quality for the ACM ICPC Amritapuri Regionals and secure a rank of 264 (College rank 2) and the ACM ICPC Gwalior-Pune regionals with a rank of 200(College rank 2) .
+I blogged about the experience here on Medium.</description>
+    </item>
+    
+  </channel>
+</rss>

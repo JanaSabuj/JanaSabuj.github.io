@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>helm on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/helm/</link>
+    <description>Recent content in helm on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Sat, 01 Apr 2023 11:42:33 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/helm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HELM-ing our Kubernetes deployed Golang music api</title>
+      <link>https://janasabuj.github.io/posts/musicapik8s-helm/</link>
+      <pubDate>Sat, 01 Apr 2023 11:42:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/musicapik8s-helm/</guid>
+      <description>In the previous blog, we built a golang music api and deployed it on top of K8s. However, the manifest files for our app (api and mysql components) were huge in number. This will make our app distribution infeasible since end users will need to manually apply all the manifest yamls in their k8s cluster.
+In comes the saviour - Helm charts. Apt is to Debian as Helm is to Kubernetes.</description>
+    </item>
+    
+  </channel>
+</rss>

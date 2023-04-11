@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>codeforces on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/codeforces/</link>
+    <description>Recent content in codeforces on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Fri, 07 Jan 2022 11:18:34 +0530</lastBuildDate><atom:link href="https://janasabuj.github.io/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICPC Swag — Team Bruteforce</title>
+      <link>https://janasabuj.github.io/posts/icpc/</link>
+      <pubDate>Fri, 07 Jan 2022 11:18:34 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/icpc/</guid>
+      <description>Our ICPC team Bruteforce — Rishik Varma, Jatin Singh and me were able to quality for the ACM ICPC Amritapuri Regionals and secure a rank of 264 (College rank 2) and the ACM ICPC Gwalior-Pune regionals with a rank of 200(College rank 2) .
+I blogged about the experience here on Medium.</description>
+    </item>
+    
+    <item>
+      <title>Building CPTracker</title>
+      <link>https://janasabuj.github.io/posts/cptracker/</link>
+      <pubDate>Sat, 18 Apr 2020 11:14:45 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/cptracker/</guid>
+      <description>I developed a full stack app that will track and present the Past, Live and Future contests on the most popular sport programming sites.
+Codeforces Codechef Atcoder TopCoder HackerEarth HackerRank Leetcode Facebook Google CSAcademy
+The 3 types of contests are split across 3 different routes. Each of them is colour coded for better user understanding. Each contest has a link with which you can directly visit the specific programming site</description>
+    </item>
+    
+    <item>
+      <title>VirtualCF — A Codeforces parser for Virtual Contests and Upsolving Contests</title>
+      <link>https://janasabuj.github.io/posts/virtualcf/</link>
+      <pubDate>Sun, 29 Sep 2019 11:09:34 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/virtualcf/</guid>
+      <description>I created a program called VirtualCF — A Codeforces parser for a specific contest identified by Id. It can be used for uninterrupted and smooth participation in a virtual contest, upsolving a practice contest or even a live contest.
+Read the entire blog here on Medium.
+The relevant code can be found here on Github.
+I created a Youtube Video for the code walkthrough here.</description>
+    </item>
+    
+    <item>
+      <title>ParseMyCF — a codeforces contest scraper</title>
+      <link>https://janasabuj.github.io/posts/parsemycf/</link>
+      <pubDate>Mon, 16 Sep 2019 22:59:26 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/parsemycf/</guid>
+      <description>I wrote an useful python script- ParseCF
+It will parse all the Codeforces contests that a particular user has participated in till date, make separate folders for every contest and every folder would contain all the user’s submissions for that particular contest , ordered by the problem names.
+Read the entire blog here on Medium. The relevant code can be found here on Github.
+I created a Youtube Video for the code walkthrough here.</description>
+    </item>
+    
+  </channel>
+</rss>
