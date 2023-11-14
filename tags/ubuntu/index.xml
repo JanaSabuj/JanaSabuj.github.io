@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Fri, 21 Apr 2023 21:48:32 +0530</lastBuildDate>
+    
+	<atom:link href="https://janasabuj.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shared Volume in Kubernetes Pod: A fun experiment</title>
+      <link>https://janasabuj.github.io/posts/fortune-nginx-volume/</link>
+      <pubDate>Fri, 21 Apr 2023 21:48:32 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/fortune-nginx-volume/</guid>
+      <description>We all know that each container in a Kubernetes Pod gets its own filesystem. Also Pods are ephemeral i.e, they get restarted frequently. This means that any data that was written by the pod into its own filesystem will be lost once the container restarts, and the new container (even though in the same pod) will not see the data written by the previous container.
+Performed a small fun experiment to demonstrate the concept of shared volumes between the containers in the same Kubernetes Pod.</description>
+    </item>
+    
+  </channel>
+</rss>

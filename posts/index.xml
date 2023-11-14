@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/posts/</link>
+    <description>Recent content in Posts on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Thu, 17 Aug 2023 17:38:21 +0530</lastBuildDate>
+    
+	<atom:link href="https://janasabuj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clearing GCP Professional Cloud Developer Certification</title>
+      <link>https://janasabuj.github.io/posts/gcp-prof-dev-certification/</link>
+      <pubDate>Thu, 17 Aug 2023 17:38:21 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/gcp-prof-dev-certification/</guid>
+      <description>It has been few months that I have been working with GCP products and offerings. Recently, I recieved a company-sponsored opportunity to avail the GCP Professional Cloud Developer certification.
+Certfication I went for : https://cloud.google.com/learn/certification/cloud-developer
+Blog about the experience and preparation: https://medium.com/@SabujJanaCodes/clearing-gcp-professional-cloud-developer-certification-38c4de5e1865</description>
+    </item>
+    
+    <item>
+      <title>Running a Full Stack App in Istio Service Mesh — Part 1</title>
+      <link>https://janasabuj.github.io/posts/istio-full-stack-part-1/</link>
+      <pubDate>Wed, 09 Aug 2023 03:44:27 +0000</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/istio-full-stack-part-1/</guid>
+      <description>📖 Read the full blog here: https://medium.com/@SabujJanaCodes/running-a-full-stack-app-in-istio-service-mesh-part-1-87b828f4d1cc
+🗄 Most workloads today are running on Kubernetes. But is only Kubernetes enough for companies? To solve the problems of Networking, Observability, Security, Traffic Control - the world is moving towards ServiceMesh - with Istio being the open source leading service mesh.
+Istio enables organizations to secure, connect, and monitor microservices, so they can modernize their enterprise apps more swiftly and securely.
+🎯 In this blog, we setup a full stack app in Istio and deploy Istio objects like Gateway, VirtualService, Istio IngressGateway etc.</description>
+    </item>
+    
+    <item>
+      <title>Leveraging Go concurrency: Building a public File Download Manager</title>
+      <link>https://janasabuj.github.io/posts/concurrent-file-downloader/</link>
+      <pubDate>Sat, 10 Jun 2023 09:55:54 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/concurrent-file-downloader/</guid>
+      <description>In this blog, we leverage the power of Golang&amp;rsquo;s concurrency constructs to write a concurrent file downloader.
+We discuss the pros and cons of downloading a file synchronously vs chunking the file up into smaller parts and downloading them asynchronously. Subsequently, we go ahead and write the entire appliacation in Go.
+We fire &amp;lsquo;chunk&amp;rsquo; no of goroutines in parallel to concurrently donwload each file chunk. Thereafter, we merge the temporary downloaded files and build the final downloaded file.</description>
+    </item>
+    
+    <item>
+      <title>Building a Kubernetes Operator in GO: Reconciling our PdfDoc CRD for Converting Text to PDF files</title>
+      <link>https://janasabuj.github.io/posts/pdfdoc-crd-operator/</link>
+      <pubDate>Sat, 13 May 2023 00:37:14 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/pdfdoc-crd-operator/</guid>
+      <description>In this blog, we write a Kubernetes operator in Golang, using Kubebuilder framework for the initial scaffolding. Writing a k8s operator lets us react to events in the cluster and reconcile the cluster state in response to such triggers.
+We create our custom CRD (named PdfDoc) and configure the k8s operator to respond to the CRD creation events. This blog will will serve as the foundation for writing more advanced controllers in Go for Kubernetes tooling.</description>
+    </item>
+    
+    <item>
+      <title>Shared Volume in Kubernetes Pod: A fun experiment</title>
+      <link>https://janasabuj.github.io/posts/fortune-nginx-volume/</link>
+      <pubDate>Fri, 21 Apr 2023 21:48:32 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/fortune-nginx-volume/</guid>
+      <description>We all know that each container in a Kubernetes Pod gets its own filesystem. Also Pods are ephemeral i.e, they get restarted frequently. This means that any data that was written by the pod into its own filesystem will be lost once the container restarts, and the new container (even though in the same pod) will not see the data written by the previous container.
+Performed a small fun experiment to demonstrate the concept of shared volumes between the containers in the same Kubernetes Pod.</description>
+    </item>
+    
+    <item>
+      <title>HELM-ing our Kubernetes deployed Golang music api</title>
+      <link>https://janasabuj.github.io/posts/musicapik8s-helm/</link>
+      <pubDate>Sat, 01 Apr 2023 11:42:33 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/musicapik8s-helm/</guid>
+      <description>In the previous blog, we built a golang music api and deployed it on top of K8s. However, the manifest files for our app (api and mysql components) were huge in number. This will make our app distribution infeasible since end users will need to manually apply all the manifest yamls in their k8s cluster.
+In comes the saviour - Helm charts. Apt is to Debian as Helm is to Kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>Building a Golang Music API and Deploying it on K8s</title>
+      <link>https://janasabuj.github.io/posts/musicapik8s/</link>
+      <pubDate>Tue, 14 Mar 2023 11:37:16 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/musicapik8s/</guid>
+      <description>We love building backend applications. But have we ever thought of building it cloud-natively? Did we ever keep in mind the deployment process and the underlying infra that would eventually be running our app ?
+In this blog, we build a golang backend music rest api and deploy it on Kubernetes. We use a lot of k8s constructs like Pods, Deployments, Services, ConfigMaps, Secrets, PersistentVolumeClaims, PersistentVolumes, port-forwarding etc - all in one - for deploying our backend app.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Club Ep 01: Decrypting a K8s Cluster Hands On</title>
+      <link>https://janasabuj.github.io/posts/k8sclub1/</link>
+      <pubDate>Fri, 03 Mar 2023 11:30:47 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/k8sclub1/</guid>
+      <description>Starting a blog series named Kubernetes Club (Inspired by the movie Fight Club).
+Here I will be talking about all things k8s, Istio and their related cloud-native technologies. The episodes will be hands-on and full of diagrams so that people can follow alongside and get a feel of k8s. Also, I included memes - figured it would be a win-win.
+Since joining Flipkart, I have been exposed to the wonderful of Kubernetes and Istio.</description>
+    </item>
+    
+    <item>
+      <title>Hands on Haproxy LoadBalancing [with Go and Docker Compose]— Part 1</title>
+      <link>https://janasabuj.github.io/posts/haproxy1/</link>
+      <pubDate>Thu, 23 Feb 2023 11:24:56 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/haproxy1/</guid>
+      <description>Since I joined Flipkart, I have been been playing around with a lot of linux, networking, k8s, elb, go etc. Although hugely overwhelming at first sight, the learning is proving to be fun and interesting.
+Thought of starting a blog to assimilate some ideas in a fun and interesting way. In this blogpost, I have talked about hands on loadbalancing with haproxy, coupled with go and docker compose.
+In the modern world of distributed systems, it would be a sin to expose your applications without critical load balancing.</description>
+    </item>
+    
+    <item>
+      <title>Amazon 6 Month Internship</title>
+      <link>https://janasabuj.github.io/posts/amz6m/</link>
+      <pubDate>Tue, 25 Jan 2022 11:22:20 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/amz6m/</guid>
+      <description>I have received a 6-month SDE Internship offer from Amazon, the FAANG tech goliath, starting from Jan 2022.
+It was a surreal experience and I blogged about it here on Medium.</description>
+    </item>
+    
+    <item>
+      <title>ICPC Swag — Team Bruteforce</title>
+      <link>https://janasabuj.github.io/posts/icpc/</link>
+      <pubDate>Fri, 07 Jan 2022 11:18:34 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/icpc/</guid>
+      <description>Our ICPC team Bruteforce — Rishik Varma, Jatin Singh and me were able to quality for the ACM ICPC Amritapuri Regionals and secure a rank of 264 (College rank 2) and the ACM ICPC Gwalior-Pune regionals with a rank of 200(College rank 2) .
+I blogged about the experience here on Medium.</description>
+    </item>
+    
+    <item>
+      <title>Building CPTracker</title>
+      <link>https://janasabuj.github.io/posts/cptracker/</link>
+      <pubDate>Sat, 18 Apr 2020 11:14:45 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/cptracker/</guid>
+      <description>I developed a full stack app that will track and present the Past, Live and Future contests on the most popular sport programming sites.
+ Codeforces Codechef Atcoder TopCoder HackerEarth HackerRank Leetcode Facebook Google CSAcademy
+ The 3 types of contests are split across 3 different routes. Each of them is colour coded for better user understanding. Each contest has a link with which you can directly visit the specific programming site</description>
+    </item>
+    
+    <item>
+      <title>VirtualCF — A Codeforces parser for Virtual Contests and Upsolving Contests</title>
+      <link>https://janasabuj.github.io/posts/virtualcf/</link>
+      <pubDate>Sun, 29 Sep 2019 11:09:34 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/virtualcf/</guid>
+      <description>I created a program called VirtualCF — A Codeforces parser for a specific contest identified by Id. It can be used for uninterrupted and smooth participation in a virtual contest, upsolving a practice contest or even a live contest.
+Read the entire blog here on Medium.
+The relevant code can be found here on Github.
+I created a Youtube Video for the code walkthrough here.</description>
+    </item>
+    
+    <item>
+      <title>ParseMyCF — a codeforces contest scraper</title>
+      <link>https://janasabuj.github.io/posts/parsemycf/</link>
+      <pubDate>Mon, 16 Sep 2019 22:59:26 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/parsemycf/</guid>
+      <description>I wrote an useful python script- ParseCF
+It will parse all the Codeforces contests that a particular user has participated in till date, make separate folders for every contest and every folder would contain all the user’s submissions for that particular contest , ordered by the problem names.
+Read the entire blog here on Medium. The relevant code can be found here on Github.
+I created a Youtube Video for the code walkthrough here.</description>
+    </item>
+    
+  </channel>
+</rss>
