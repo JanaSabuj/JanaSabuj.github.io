@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>concurrency on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/concurrency/</link>
+    <description>Recent content in concurrency on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Sat, 10 Jun 2023 09:55:54 +0530</lastBuildDate>
+    
+	<atom:link href="https://janasabuj.github.io/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leveraging Go concurrency: Building a public File Download Manager</title>
+      <link>https://janasabuj.github.io/posts/concurrent-file-downloader/</link>
+      <pubDate>Sat, 10 Jun 2023 09:55:54 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/concurrent-file-downloader/</guid>
+      <description>In this blog, we leverage the power of Golang&amp;rsquo;s concurrency constructs to write a concurrent file downloader.
+We discuss the pros and cons of downloading a file synchronously vs chunking the file up into smaller parts and downloading them asynchronously. Subsequently, we go ahead and write the entire appliacation in Go.
+We fire &amp;lsquo;chunk&amp;rsquo; no of goroutines in parallel to concurrently donwload each file chunk. Thereafter, we merge the temporary downloaded files and build the final downloaded file.</description>
+    </item>
+    
+  </channel>
+</rss>

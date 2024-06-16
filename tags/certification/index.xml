@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>certification on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/certification/</link>
+    <description>Recent content in certification on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Thu, 17 Aug 2023 17:38:21 +0530</lastBuildDate>
+    
+	<atom:link href="https://janasabuj.github.io/tags/certification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clearing GCP Professional Cloud Developer Certification</title>
+      <link>https://janasabuj.github.io/posts/gcp-prof-dev-certification/</link>
+      <pubDate>Thu, 17 Aug 2023 17:38:21 +0530</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/gcp-prof-dev-certification/</guid>
+      <description>It has been few months that I have been working with GCP products and offerings. Recently, I recieved a company-sponsored opportunity to avail the GCP Professional Cloud Developer certification.
+Certfication I went for : https://cloud.google.com/learn/certification/cloud-developer
+Blog about the experience and preparation: https://medium.com/@SabujJanaCodes/clearing-gcp-professional-cloud-developer-certification-38c4de5e1865</description>
+    </item>
+    
+  </channel>
+</rss>
