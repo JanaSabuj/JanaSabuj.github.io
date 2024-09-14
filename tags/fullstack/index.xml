@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fullstack on Sabuj Jana</title>
+    <link>https://janasabuj.github.io/tags/fullstack/</link>
+    <description>Recent content in fullstack on Sabuj Jana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2023, Sabuj Jana.</copyright>
+    <lastBuildDate>Wed, 09 Aug 2023 03:44:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://janasabuj.github.io/tags/fullstack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running a Full Stack App in Istio Service Mesh — Part 1</title>
+      <link>https://janasabuj.github.io/posts/istio-full-stack-part-1/</link>
+      <pubDate>Wed, 09 Aug 2023 03:44:27 +0000</pubDate>
+      
+      <guid>https://janasabuj.github.io/posts/istio-full-stack-part-1/</guid>
+      <description>📖 Read the full blog here: https://medium.com/@SabujJanaCodes/running-a-full-stack-app-in-istio-service-mesh-part-1-87b828f4d1cc
+🗄 Most workloads today are running on Kubernetes. But is only Kubernetes enough for companies? To solve the problems of Networking, Observability, Security, Traffic Control - the world is moving towards ServiceMesh - with Istio being the open source leading service mesh.
+Istio enables organizations to secure, connect, and monitor microservices, so they can modernize their enterprise apps more swiftly and securely.
+🎯 In this blog, we setup a full stack app in Istio and deploy Istio objects like Gateway, VirtualService, Istio IngressGateway etc.</description>
+    </item>
+    
+  </channel>
+</rss>
